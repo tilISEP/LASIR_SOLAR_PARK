@@ -3,4 +3,30 @@
 %-----------------------------------------------------------
 \chapter{Análise de Requisitos}
 
-De acordo com os objectivos apresentados e com as características existentes nas descrições e análises apresentadas no Estado da Arte e da Análise de Cenários de aplicação, especificar os requisitos para o sistema que se pretende desenvolver.
+
+\section{Application Scenarios}
+
+The application scenarios for the solar park inspection system using a wheeled mobile robot include the following:
+
+\begin{itemize}
+    \item Cable inspection: Checking the condition and integrity of electrical cables in the solar park.
+    \item Vegetation monitoring: Observing plant growth that may interfere with solar panels.
+    \item Site surveillance: General monitoring of security and intruder presence in the park.
+    \item Thermal surveillance: Detection of thermal anomalies such as hot spots in solar panels through thermal images.
+\end{itemize}
+
+\section{Requirements}
+
+The requirements analysis for the system development considers several fundamental aspects:
+
+\begin{itemize}
+    \item \textbf{Wheeled mobile robot}: Use of a wheeled robot suitable for navigation on uneven solar park terrains.
+    \item \textbf{Sensors}: 
+        \begin{itemize}
+            \item For navigation: RTK-GPS, IMU (Inertial Measurement Unit), odometry.
+            \item For localization: LiDAR, stereo cameras, ultrasonic sensors.
+            \item For inspection: Visual cameras, thermal cameras, proximity sensors.
+        \end{itemize}
+    \item \textbf{Framework}: Use of ROS (Robot Operating System) for sensor integration, control, and data processing.
+    \item \textbf{Predefined information}: Map of the solar park to apply geo-referencing and path planning.
+\end{itemize}
