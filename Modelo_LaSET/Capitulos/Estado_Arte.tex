@@ -1,14 +1,34 @@
 %-----------------------------------------------------------
 %   Capítulo 2 - Estado da Arte 
 %-----------------------------------------------------------
-\chapter{Estado da Arte}
+\chapter{State of the Art}
 
-Neste capítulo deverão ser apresentadas outras abordagens e trabalhos relacionados com o problema e soluções disponíveis no mercado de produtos semelhantes ao que se pretende construir. Devem ser estudadas as suas características e feita uma análise comparativa das mesmas incluindo os custos de aquisição e utilização, de forma a possibilitar uma boa base de trabalho e conhecimento sobre os trabalhos relacionados, que permitam melhorar o que se pretende desenvolver, descrever algumas aplicações do dispositivo e identificar as características mais relevantes que este tem e que possam ser interessantes para o sistema que se pretende desenvolver.
-Para uma fácil análise comparativa deverá ser apresentada uma tabela resumo. Sempre que possível deverão ser apresentados esquemas, diagramas ou formulas que permitam melhor descrever as soluções analisadas. 
+\begin{itemize}
+    \item \textbf{Husky Observer (Clearpath Robotics):} A wheeled platform specifically adapted for outdoor industrial inspection.
+    It utilizes a high-precision GPS-RTK system for autonomous route following, complemented by 3D LiDAR and dual depth cameras for real-time obstacle avoidance.
+    Its open architecture allows for the integration of custom sensor suites, typically including PTZ thermal infrared (IR) cameras.
+    
+    \item \textbf{OnSight:} A tracked robot uniquely designed for high-endurance maintenance, capable of operating for 12 hours per day using solar power. 
+    It employs 5G mobile communication for remote data transmission and utilizes computer vision to autonomously detect over 100 distinct fault points, assisting in real-time maintenance decision-making.
+    
+    \item \textbf{Antecursor II(Arbórea Intellbird):} A fully autonomous tracked system designed to operate without human intervention. 
+    To overcome the lack of cellular infrastructure in remote solar parks, it utilizes Starlink satellite connectivity. 
+    It features edge computing for real-time anomaly reporting and is unique for its hybrid capability of vegetation management via a built-in mower.
+    
+    \item \textbf{Leapting:} Originating from a background in PV cleaning automation, this tracked platform follows predefined inspection routes to identify mechanical and thermal faults. 
+    It utilizes PTZ-mounted visual and IR sensors to detect cracks, hot spots, animal infestations, and soiling levels.
+    
+    \item \textbf{S4 (SMP Robotics):} A wheeled robot primarily focused on site security and perimeter surveillance. 
+    While less specialized in specific PV fault characterization than its counterparts, it is frequently used for thermal patrolling, autonomously cruising between rows to detect and report abnormal temperature fluctuations in electrical infrastructure.
+
+    \item \textbf{RB-Watcher (Robotnik):} A high-performance 4WD autonomous mobile robot (AMR) specifically engineered for the inspection of electrical infrastructure and energy grids. 
+    It is distinguished by its integrated 5G router, which allows for high-bandwidth, real-time transmission of bi-spectral data (simultaneous Thermal and RGB video) to control centers. 
+    The platform utilizes a hybrid localization system combining 3D SLAM with GPS-RTK to maintain centimeter-level precision even when moving between open areas and the GPS-denied zones beneath solar panel structures.
+\end{itemize}
 
 The table \ref{tab:robot_comparison} summarizes the key characteristics of the analyzed robots.
 
-\begin{table}[h!]
+\begin{table}[!ht]
 \begin{center}
     \caption{Details of the robots analyzed.}
     \begin{tabular}{ | p{2.2cm} | p{2cm} | p{1.8cm} | p{5.3cm} | } \hline
@@ -29,3 +49,9 @@ The table \ref{tab:robot_comparison} summarizes the key characteristics of the a
     \label{tab:robot_comparison}
 \end{center}
 \end{table}
+
+\section{Current Industry Trends}
+The current state of the art suggests that while tracked systems are often chosen for dedicated heavy-duty inspection tasks, wheeled platforms like the Husky and S4 remain the preferred choice for high-speed surveillance and missions on relatively stable terrain. 
+A significant market trend is the move toward "Inspection-as-a-Service" (IaaS), where specialized firms operate these robotic fleets for solar park owners, mirroring the existing business model of the aerial drone inspection industry. 
+However, the long-term economic reliability of these ground-based systems is still being validated through current large-scale pilot projects.
+

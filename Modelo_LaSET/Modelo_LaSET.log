@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.13)  27 MAR 2026 21:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.13)  27 MAR 2026 21:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -314,114 +314,116 @@ Underfull \vbox (badness 1642) has occurred while \output is active []
 ]
 Cap\'{\i }tulo 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
+Overfull \hbox (1.15115pt too wide) in paragraph at lines 11--13
+[]\OT1/cmr/bx/n/10.95 OnSight: \OT1/cmr/m/n/10.95 A trac-ked ro-bot uni-quely de-sig-ned for high-endurance main-
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
 []|\OT1/cmr/m/n/10.95 Obstacle
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 []|\OT1/cmr/m/n/10.95 18 hours
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 []|\OT1/cmr/m/n/10.95 130 mm
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--18
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 []|\OT1/cmr/m/n/10.95 200 mm
  []
 
 
-Underfull \hbox (badness 6428) in paragraph at lines 20--20
+Underfull \hbox (badness 6428) in paragraph at lines 40--40
 []|\OT1/cmr/m/n/10.95 Up to 18
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 []|\OT1/cmr/m/n/10.95 178 mm
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
 []|\OT1/cmr/m/n/10.95 RB-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
 []|\OT1/cmr/m/n/10.95 111 mm
  []
 
 
-Underfull \hbox (badness 6428) in paragraph at lines 26--26
+Underfull \hbox (badness 6428) in paragraph at lines 46--46
 []|\OT1/cmr/m/n/10.95 Up to 12
  []
 
 
-Overfull \hbox (11.51616pt too wide) in paragraph at lines 14--30
+Overfull \hbox (11.51616pt too wide) in paragraph at lines 34--50
  [] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (Capitulos/Analise_Requisitos.tex [5] [6]
-Cap\'{\i }tulo 3.
-[7
+[6]) (Capitulos/Analise_Requisitos.tex [7] [8
 
 ]
+Cap\'{\i }tulo 3.
+[9]
 Overfull \hbox (15.31082pt too wide) in paragraph at lines 31--32
 []\OT1/cmr/bx/n/10.95 Predefined in-for-ma-tion\OT1/cmr/m/n/10.95 : Map of the so-lar park to ap-ply geo-referencing
  []
 
-) (Capitulos/Arquitectura.tex [8]
+) (Capitulos/Arquitectura.tex [10]
 Cap\'{\i }tulo 4.
-) (Capitulos/Projecto.tex [9
+) (Capitulos/Projecto.tex [11
 
-] [10
+] [12
 
 ]
 Cap\'{\i }tulo 5.
 ) (Capitulos/Implementacao.tex
 Underfull \vbox (badness 1803) has occurred while \output is active []
 
- [11] [12]
+ [13] [14]
 Cap\'{\i }tulo 6.
-) (Capitulos/Resultados.tex [13
+) (Capitulos/Resultados.tex [15
 
-] [14
+] [16
 
 ]
 Cap\'{\i }tulo 7.
-) (Capitulos/Conclusao_Trabalho_Futuro.tex [15] [16
+) (Capitulos/Conclusao_Trabalho_Futuro.tex [17] [18
 
 ]
 Cap\'{\i }tulo 8.
-) (bibliografia.tex (Modelo_LaSET.bbl [17] [18
+) (bibliografia.tex (Modelo_LaSET.bbl [19] [20
 
-])) (Anexos/AnexoA.tex [19] [20
+])) (Anexos/AnexoA.tex [21] [22
 
 ]
 Ap\^endice A.
-) [21] (Modelo_LaSET.aux)
+) [23] (Modelo_LaSET.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-10-24>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4723 strings out of 467871
- 78054 string characters out of 5419343
- 493358 words of memory out of 5000000
- 33491 multiletter control sequences out of 15000+600000
+ 4724 strings out of 467871
+ 78070 string characters out of 5419343
+ 494358 words of memory out of 5000000
+ 33492 multiletter control sequences out of 15000+600000
  636791 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,18n,65p,796b,477s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,18n,65p,396b,477s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\til\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/til/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/til/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/til/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/til/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/til/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/til/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/til/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/til/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/til/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/til/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/til/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/til/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Modelo_LaSET.pdf (29 pages, 413129 bytes).
+Output written on Modelo_LaSET.pdf (31 pages, 419425 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
+ 171 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
