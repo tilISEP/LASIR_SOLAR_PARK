@@ -6,16 +6,26 @@
 Neste capítulo deverão ser apresentadas outras abordagens e trabalhos relacionados com o problema e soluções disponíveis no mercado de produtos semelhantes ao que se pretende construir. Devem ser estudadas as suas características e feita uma análise comparativa das mesmas incluindo os custos de aquisição e utilização, de forma a possibilitar uma boa base de trabalho e conhecimento sobre os trabalhos relacionados, que permitam melhorar o que se pretende desenvolver, descrever algumas aplicações do dispositivo e identificar as características mais relevantes que este tem e que possam ser interessantes para o sistema que se pretende desenvolver.
 Para uma fácil análise comparativa deverá ser apresentada uma tabela resumo. Sempre que possível deverão ser apresentados esquemas, diagramas ou formulas que permitam melhor descrever as soluções analisadas. 
 
-A tabela \ref{tab:comparativa}, mostra uma comparação entre as diferentes abordagens estudadas.
+The table \ref{tab:robot_comparison} summarizes the key characteristics of the analyzed robots.
 
 \begin{table}[h!]
 \begin{center}
-    \caption{Tabela comparativa entre as diferentes abordagens.}
-    \begin{tabular}{ c c c }\hline
-       & $Caracteristica_{1}$ & $Caracteristica_{2}$\\\hline\hline
-      A & 5 & 6\\\hline
-      B & 8 & 9\\\hline
+    \caption{Details of the robots analyzed.}
+    \begin{tabular}{ | c | c | c | l | } \hline % Reduced to 4 columns to match your data
+        Robot Model & Autonomy & Obstacle Avoidance & Hardware \\\hline\hline
+        Husky A300 & 18 hours (max) & 130 mm clearance & 
+        \makecell[l]{LiDAR 3D and 2D \\ Depth, PTZ and Thermal Cameras\\ RTK-GPS \\ Microphones} \\\hline
+        Leapting & 10km range & 200 mm obstacles &
+        \makecell[l]{Visual and IR cameras \\ Dual-lens gimbal} \\\hline
+        S4 & Up to 18 hours & 178 mm obstacles &
+        \makecell[l]{Wi-Fi \\ GPS \\ Auto Tracking PTZ Camera \\ IR Camera} \\\hline
+        Antecursor & 30 hours & | & 
+        \makecell[l]{Starlink \\ 4G/5G Visual and IR Cameras} \\\hline
+        RB-WATCHER & 5 hours & 111 mm clearance &
+        \makecell[l]{5G Router \\ GPS \\ LiDAR 3D \\ RGBD Camera \\ Bi-spectral Pan-Tilt-Zoom} \\\hline
+        Onsight & Up to 12 hours & | &
+        \makecell[l]{IR and visual Cameras \\ 5G \\ Tele-operated robot} \\\hline
     \end{tabular}
-    \label{tab:comparativa}
+    \label{tab:robot_comparison}
 \end{center}
 \end{table}
