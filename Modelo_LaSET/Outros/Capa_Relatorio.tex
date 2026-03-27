@@ -1,0 +1,57 @@
+%---------------------------------------------
+%   Capa do Relatório
+%---------------------------------------------
+\renewcommand{\baselinestretch}{1}
+\thispagestyle{empty}
+\newcommand{\thedate}{\today}
+\begin{center}
+	\begin{picture}(210,0)
+		\put(-2,5)
+		{
+			\begin{minipage}[t]{150mm}
+				\begin{center}
+					\huge \textsc{Laboratório de Sistemas Autónomos\\}
+					\vspace{30mm}
+					\includegraphics[height=20mm, bb= 0 0 521 153]{./Figuras/logo_ISEP.jpg}\\
+					\vspace{5mm}
+					\begin{center}
+					\includegraphics[height=15mm, bb=0 0 719 461]{./Figuras/logo_LSA.jpg}
+					\includegraphics[height=15mm, bb= 0 0 400 126]{./Figuras/inesc.jpg}
+					\end{center}
+					\vspace{30mm}
+				\end{center}
+				\begin{center}
+								
+				\ifFinal
+					\LARGE Relatório Final\\
+				\else
+					\ifProjecto
+						\Large Relatório de Projecto\\
+					\else
+						\ifRequisitos
+							\Large Relatório de Análise de Requisitos\\
+						\else
+							\Huge \pagecolor{red} \textcolor{white}{\textbf{Não foi definido o tipo de relatório}}
+						\fi
+					\fi
+				\fi
+				
+				\vspace{10mm}
+				\LARGE \Title
+				\end{center}
+				\vspace{20mm}
+				\begin{center}
+					\large \Author
+				\end{center}
+				\begin{center}
+					\vspace{30mm}
+					\large Mestrado de Sistemas Autónomos\\
+					\vspace{2mm}
+					\large LaSET - Laboratório de Sistemas Embebidos e Tecnologias \\
+					\vspace{4mm}
+					\today
+				\end{center}
+			\end{minipage}
+		}
+	\end{picture}
+\end{center}

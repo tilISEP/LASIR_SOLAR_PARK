@@ -1,0 +1,32 @@
+
+No ficheiro master acrescentar as linhas:
+
+\usepackage{acronym}
+\newcommand{\acroemph}[1]{\textit{#1}}
+\setlength{\unitlength}{1mm}
+\renewcommand{\baselinestretch}{1.5}
+\newcommand*{\addacronym}[2]{
+  \DTLnewrow{acronyms}
+  \DTLnewdbentry{acronyms}{Acronym}{#1}
+  \DTLnewdbentry{acronyms}{Description}{#2}
+}
+
+
+No ponto onde se pretende colocar os acrónimos escrever:
+\input{./outros/Acronimos}
+\thispagestyle{empty}
+\section*{\begin{Huge} Lista de Acrónimos\end{Huge}}
+\DTLsort{Acronym}{acronyms}
+\begin{itemize}
+\DTLforeach*{acronyms}{\thisAcronym=Acronym,\thisDesc=Description}
+{\item[] \makebox[2cm]{$\textbf{\thisAcronym}$\hfill}\qquad \thisDesc}
+\end{itemize}
+
+
+
+No ficheiro acronimos.tex escrever na 1ª linha:
+\DTLnewdb{acronyms}
+
+E escrever os acrónimos em qualquer ordem mas utilizando a seguinte sintaxe:
+\addacronym{APB}{Advance Peripheral Bus}
+\addacronym{SE}{Sistema Embebido}

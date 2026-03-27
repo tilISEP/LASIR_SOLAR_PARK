@@ -1,0 +1,79 @@
+\documentclass[a4paper,11pt]{book}
+
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{array}
+\usepackage{colortbl}
+%\usepackage{multirow}
+\usepackage{amssymb}
+\usepackage{lscape}
+%\usepackage{subfigure}
+\setlength{\unitlength}{1mm}
+\renewcommand{\baselinestretch}{1.5}
+\newif\ifRequisitos
+\newif\ifProjecto
+\newif\ifFinal
+
+\makeatletter
+	\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else
+	\hbox{}
+	\vspace*{\fill}
+		\begin{center}
+			Esta página foi intencionalmente deixada em branco.
+		\end{center}
+	\vspace{\fill}
+	\thispagestyle{empty}
+	\newpage
+	\if@twocolumn\hbox{}\newpage\fi\fi\fi}
+\makeatother
+
+\input{./Outros/Identificacao.tex}
+\begin{document}
+	\begin{titlepage}
+		\input{./Outros/Capa_Relatorio.tex}
+		\newpage
+		\thispagestyle{empty}
+		\vspace*{\fill}
+		\newpage
+	\end{titlepage}
+	\pagenumbering{roman}
+	\tableofcontents
+	\listoffigures
+	\listoftables
+
+	\mainmatter
+	\setlength{\headsep}{5mm}
+	\setlength{\headheight}{16pt}
+	\pagestyle{fancy}
+
+	\renewcommand{\sectionmark}[1]{\markright{\arabic{chapter}.\arabic{section}. #1}}
+	\renewcommand{\chaptermark}[1]{\markboth{Capítulo \arabic{chapter} }{}}
+
+	\pagenumbering{arabic}
+	\ifRequisitos
+	\input{./Capitulos/Introducao.tex}
+	\input{./Capitulos/Estado_Arte.tex}
+	\input{./Capitulos/Analise_Requisitos.tex}
+	\input{./Capitulos/Arquitectura.tex}
+	\fi
+	
+	\ifProjecto
+	\input{./Capitulos/Projecto.tex}
+	\fi
+	
+	\ifFinal
+	\input{./Capitulos/Implementacao.tex}
+	\input{./Capitulos/Resultados.tex}
+	\input{./Capitulos/Conclusao_Trabalho_Futuro.tex}
+	\fi
+	
+	\input{bibliografia.tex}	
+	\appendix
+	\input{./Anexos/AnexoA.tex}
+
+\end{document}
